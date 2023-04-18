@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('số đầu tiên chia 7 dư 4')
+    let b = prompt('số cuối cùng chia 7 dư 4')
+    let ketqua = 0
+    for (i = a ; i < b ; i++){
+        if (i % 7 == 4){
+            ketqua = (b - a) / 7 + 1
+        }
+    }
+    document.write(ketqua)
+</script>
+
+</body>
+</html>
